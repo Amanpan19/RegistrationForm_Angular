@@ -89,3 +89,19 @@ p{
     text-align: center;
     font-size: 14px;
 }
+
+@media (min-width:390px) {
+    form{
+        transform: translateY(8%);
+    }
+}
+@media (max-width:490px) {
+    form{
+        width: 250px;
+        transform: translateY(8%);
+    }
+    #err{
+        left: 20%;
+        transform: translateX(-10%);
+    }
+}
